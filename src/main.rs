@@ -53,7 +53,7 @@ impl Animal for Sheep {
     // Default trait methods can be overridden.
     fn talk(&self) {
         // For example, we can add some quiet contemplation.
-        println!("{} pauses briefly... {}", self.name, self.noise());
+        println!("{} pauses briefly..... {}", self.name, self.noise());
     }
 }
 
